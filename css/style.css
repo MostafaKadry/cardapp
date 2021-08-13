@@ -1,0 +1,129 @@
+.card-itme{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.header2{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Atkinson', 'Hyperlegible';
+    line-height: 4rem;
+}
+img {
+    height: 100%;
+    object-fit: cover;
+}
+.card-title {
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.speake-badge {
+    padding: 0.25rem 1rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.btn {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0.5rem !important;
+    margin: 0;
+}
+.f_text {
+    font-size: 0.8rem;
+}
+/* Start More Info box */
+.btn-box {
+    margin-bottom: 22px !important;
+    margin-left: 15px !important;
+}
+.btn-box_first-speaker {
+    margin-top: 145px !important;
+}
+.btn-box_second-speaker{
+    margin-top: 0 !important;
+}
+.btn-box_third-speaker{
+    margin-top: 25px !important;
+}
+/*  End More info box*/
+
+
+
+/* Media Query */
+@media only screen and (min-width: 768px) {
+    .card-itme { 
+        width: 100%;
+        margin: auto;
+    }
+    img {
+        max-width: 100%;
+    }
+    .sm-center {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .card {
+        margin-bottom: 40px
+    }
+}
+@media only screen and (max-width: 767px) {
+    .card-itme { 
+        width: 100%;
+        margin: auto;
+    }
+    img {
+        width: 100%;
+    }
+    .hr-button {
+        border-bottom: 1px solid rgb(206, 202, 206);
+    }
+    .sm-center {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .card {
+        margin-bottom: 40px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 992px) {
+    .card-itme { 
+      width: 50%;
+    }
+    img{
+        max-width: 100%;
+    }
+    .sm-center{
+        text-align: left;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 1267px) {
+    .card-itme { 
+      width: 33.3%;
+    }
+    img{
+        max-width: 100%;
+    }
+    .sm-center{
+        text-align: left;
+        margin-bottom: 0;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .btn-box_second-speaker{
+        margin-top: 22px !important;
+    }   
+}
+@media only screen and (max-width: 1043px) {
+    .btn-box_second-speaker{
+        margin-top: 0 !important;
+    }
+}
+
